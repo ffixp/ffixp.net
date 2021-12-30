@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}
+{{section.title}}
+{% endblock title %}
+
+{% block head %}
+{{ super() }}
+<meta property="og:description" content="{{config.description}}" />
+<meta property="description" content="{{config.description}}" />
+<meta name="og:title" content="{{config.title}}" />
+{% endblock head %}
+
+{% block content %}
+{{section.content | safe}}
+{% endblock content %}

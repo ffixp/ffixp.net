@@ -1,0 +1,28 @@
+base_url = "https://ffixp.com"
+title = "Freeform Internet Exchange"
+description = "FFIXP is a virtual internet exchange for use by experimenters"
+default_language = "en"
+compile_sass = true
+build_search_index = true
+generate_feed = true
+feed_filename = "rss.xml"
+minify_html = false
+
+[markdown]
+highlight_code = true
+render_emoji = true
+external_links_target_blank = true
+
+[extra]
+profile_photo = "https://avatars.githubusercontent.com/u/96847112"
+
+
+[[extra.ffixp_peers]]
+name = "ZZANET"
+asn = "private"
+internal_ip = "10.222.0.1"
+prefixes = [
+    "44.32.62.0/24",
+    "2001:470:1d:217::/64",
+    "2001:470:b1c8::/48"
+]
