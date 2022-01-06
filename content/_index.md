@@ -8,11 +8,11 @@ This project is operated, funded, and coordinated by [Evan Pratten](https://va3z
 
 ## What we provide
 
-**FFIXP** itself is simply an internet exchange that operates over tunnels and virtual private networks. The exchange is not geographically restricted and is not limited to a single country (although far away routers will see higher latency).
+**FFIXP** itself is simply an internet exchange that operates over tunnels and virtual private networks. The exchange is not geographically restricted and is not limited to a single country (although far away peers will see higher latency).
 
 ### Our current infrastructure
 
-Currently, **FFIXP** has routers running in the following locations (more to come soon):
+Currently, **FFIXP** has backbone routers running in the following locations (more to come soon):
 
 | Datacenter  | City                    | Network        |
 |-------------|-------------------------|----------------|
@@ -20,6 +20,8 @@ Currently, **FFIXP** has routers running in the following locations (more to com
 
 ## News
 
+- **January 2, 2022**: DN42 allocated  `fd70:4904:a771::/48` to **FFIXP**
+- **January 2, 2022**: **FFIXP** was assigned [`AS4242420966`](https://explorer.burble.com/?#/AS4242420966)
 - **January 1, 2022**: DN42 allocated `172.23.25.0/26` and `fd58:13a2:d1c1::/48` to [ZZANET](/zzanet)
 - **January 1, 2022**: [ZZANET](/zzanet) was assigned [`AS4242422811`](https://explorer.burble.com/?#/AS4242422811)
 - **November 19, 2021**: Hurricane Electric allocated `2001:470:1d:217::/64` and `2001:470:b1c8::/48` to us
