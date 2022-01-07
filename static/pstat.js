@@ -37,7 +37,7 @@ function doPstatLogic() {
                         } else if (jsonPeers[j].info == null) {
                             pstats[i].innerHTML = pstat_icons.offline;
                         } else if (jsonPeers[j].info == "Connect") {
-                            pstats[i].innerHTML = pstat_icons.connecting;
+                            pstats[i].innerHTML = pstat_icons.idle;
                         } else {
                             pstats[i].innerHTML = pstat_icons.idle;
                         }
