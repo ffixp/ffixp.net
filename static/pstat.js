@@ -2,7 +2,7 @@
 var pstat_icons = {
     online: '<div style="background-color:green;padding-left:3px;padding-right:3px;text-align:center;color:white;"><p style="margin:0;padding:0;font-weight:bolder;">OK</p></div>',
     offline: '<div style="background-color:red;padding-left:3px;padding-right:3px;text-align:center;color:white;"><p style="margin:0;padding:0;font-weight:bolder;">OFFLINE</p></div>',
-    connecting: '<div style="background-color:blue;padding-left:3px;padding-right:3px;text-align:center;color:white;"><p style="margin:0;padding:0;font-weight:bolder;">CONNECT</p></div>',
+    connecting: '<div style="background-color:gray;padding-left:3px;padding-right:3px;text-align:center;color:white;"><p style="margin:0;padding:0;font-weight:bolder;">WAITING</p></div>',
     idle: '<div style="background-color:gray;padding-left:3px;padding-right:3px;text-align:center;color:white;"><p style="margin:0;padding:0;font-weight:bolder;">IDLE</p></div>',
 };
 
@@ -37,7 +37,7 @@ function doPstatLogic() {
                         } else if (jsonPeers[j].info == null) {
                             pstats[i].innerHTML = pstat_icons.offline;
                         } else if (jsonPeers[j].info == "Connect") {
-                            pstats[i].innerHTML = pstat_icons.idle;
+                            pstats[i].innerHTML = pstat_icons.connecting;
                         } else {
                             pstats[i].innerHTML = pstat_icons.idle;
                         }
