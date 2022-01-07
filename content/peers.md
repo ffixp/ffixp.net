@@ -14,6 +14,7 @@ The following is a reasonably up-to-date list of our peers:
 | [Chris Moos](https://www.chrismoos.com/)   | [4242421588](https://explorer.burble.com/?#/AS4242421588) | Chicago, IL, USA         | <pstat data:as="4242421588"/> |
 | HuJK                                       | [4242422717](https://explorer.burble.com/?#/AS4242422717) | Moscow, Russia           | <pstat data:as="4242422717"/> |
 | KusakabeSi                                 | [4242421817](https://explorer.burble.com/?#/AS4242421817) | Taipei City, Taiwan      | <pstat data:as="4242421817"/> |
+| Nicholas Wang                              | [4242421288](https://explorer.burble.com/?#/AS4242421288) | Seattle, WA, USA         | <pstat data:as="4242421288"/> |
 
 </div>
 
