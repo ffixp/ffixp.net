@@ -9,6 +9,13 @@ var pstat_icons = {
 function doPstatLogic() {
     console.log("Performing pstat logic");
 
+    // If something goes wrong, we can fall back to an all-offline state
+    // Search for all <pstat> elements
+    var pstats = document.getElementsByTagName("pstat");
+    for (var i = 0; i < pstats.length; i++) {
+        pstats[i].innerHTML = pstat_icons.offline;
+    }
+
     // Get the JSON data from connect.ffixp.net/peers.json
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function () {
