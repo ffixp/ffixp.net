@@ -23,5 +23,6 @@ jobs:
         with:
           target_branch: gh-pages
           build_dir: public
+          fqdn: ffixp.net
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
