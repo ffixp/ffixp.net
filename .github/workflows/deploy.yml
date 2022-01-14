@@ -14,6 +14,8 @@ jobs:
         
       - name: Build
         uses: TonySpegel/zola-build-action@v1
+        env:
+          CONFIG_FILE: "config.toml"
 
       - name: Deploy to GitHub Pages
         if: success()
