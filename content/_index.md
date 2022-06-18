@@ -2,28 +2,55 @@
 title: Home
 ---
 
-**FFIXP** (the *Freeform Internet Exchange*) is a virtual internet exchange for connecting experimental and research networks in a reasonably safe and controlled manner. Our goal is to allow anyone access and experiment with internet backbone technologies with a low barrier to entry and extremely low cost overhead.
+## Welcome to the FFIXP homepage
 
-This project is operated, funded, and coordinated by [Evan Pratten](https://va3zza.com). More info and project updates may be found in his [blog](https://va3zza.com/blog).
+**FFIXP** (the *FreeForm Internet eXchange Project*) is a non-profit project dedicated to providing varying degrees of internet access to experimenters.
 
-## What we provide
+## Our goals
 
-**FFIXP** itself is simply an internet exchange that operates over tunnels and virtual private networks. The exchange is not geographically restricted and is not limited to a single country (although far away peers will see higher latency).
+The following are the key subset of our goals for FFIXP:
 
-### Our current infrastructure
+- Focus on IPv6 adoption
+- Maintain the lowest possible cost of operation
+- <strong style="font-weight:bolder;">Learn new things</span>
 
-Currently, **FFIXP** has backbone routers running in the following locations (more to come soon):
+## Our services
 
-| Datacenter  | City                    | Network        |
-|-------------|-------------------------|----------------|
-| Equinix TR2 | Toronto Ontario, Canada | 1gbps ethernet |
+FFIXP provides:
 
-## News
+- [AREDN](https://www.arednmesh.org/) mesh nodes for emergency communication
+- Public IP address space for use in amateur radio projects
+- IPv6 tunnel brokerage
+- [DN42](https://dn42.eu) network access
+- Port-forwarding tunnels
 
-- **January 2, 2022**: DN42 allocated  `fd70:4904:a771::/48` to **FFIXP**
-- **January 2, 2022**: **FFIXP** was assigned [`AS4242420966`](https://explorer.burble.com/?#/AS4242420966)
-- **January 1, 2022**: DN42 allocated `172.23.25.0/26` and `fd58:13a2:d1c1::/48` to [ZZANET](/zzanet)
-- **January 1, 2022**: [ZZANET](/zzanet) was assigned [`AS4242422811`](https://explorer.burble.com/?#/AS4242422811)
-- **November 19, 2021**: Hurricane Electric allocated `2001:470:1d:217::/64` and `2001:470:b1c8::/48` to us
-- **October 17, 2021**: ARDC allocated `44.31.62.0/24` to [ZZANET](/zzanet) for amateur radio use
-- **August 21, 2021**: ARDC allocated `44.63.7.32/29` to [ZZANET](/zzanet) for amateur radio use
+The following services are a work-in-progress, and will become live in the future:
+
+- Automatic IPv6 tunneling daemon for mobile devices on IPv4-only networks
+- Looking Glass
+- DNS servers
+
+For more information, or to request access to our services, please contact us at [`contact@ffixp.net`](mailto:contact@ffixp.net)
+
+## Connectivity
+
+We currently have network endpoints in the following locations:
+
+| City            | Type | Bandwidth |
+|-----------------|------|-----------|
+| London, UK      | VPS  | 1gbps     |
+| Toronto, Canada | VPS  | 1gbps     |
+
+## Networks
+
+FFIXP is currently allocated the following networks:
+
+| Network                                                                            | Info    | Accessibility |
+|------------------------------------------------------------------------------------|---------|---------------|
+| [`fd70:4904:a771::/48`](https://explorer.burble.com/?#/route6/fd70:4904:a771::_48) | DN42    | Restricted    |
+| [`fd58:13a2:d1c1::/48`](https://explorer.burble.com/?#/route6/fd58:13a2:d1c1::_48) | DN42    | Restricted    |
+| [`172.23.25.0/26`](https://explorer.burble.com/?#/route/172.23.25.0_26)            | DN42    | Restricted    |
+| `2001:470:b1c8::/48`                                                               |         | Public        |
+| `2001:470:1d:217::/64`                                                             |         | Public        |
+| [`44.31.62.0/24`](https://bgp.tools/prefix/44.31.62.0/24)                          | AMPRNet | Public        |
+| `44.63.7.32/29`                                                                    | AMPRNet | Restricted    |
