@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ffixp.com/sitemap.xml
