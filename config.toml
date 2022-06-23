@@ -1,5 +1,5 @@
 base_url = "https://ffixp.com"
-title = "Freeform Internet Exchange"
+title = "AS204466"
 description = "FFIXP is a virtual internet exchange for use by experimenters"
 default_language = "en"
 compile_sass = true

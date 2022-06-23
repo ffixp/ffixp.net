@@ -2,19 +2,27 @@
 title: Home
 ---
 
-## Welcome to the FFIXP homepage
 
-**FFIXP** (the *FreeForm Internet eXchange Project*) is a non-profit project dedicated to providing varying degrees of internet access to experimenters.
+<!-- **FFIXP** (the *FreeForm Internet eXchange Project*) is a non-profit project dedicated to providing varying degrees of internet access to experimenters. -->
+
+**AS204466** provides IPv6 connectivity to experimenters, as well as IPv4 connectivity to amateur radio operators.
+
+<div style="text-align:center;">
+<img style="max-width:400px;" src="https://bgp.tools/pathimg/204466-default">
+</div>
 
 ## Our goals
 
-The following are the key subset of our goals for FFIXP:
 
 - Focus on IPv6 adoption
 - Maintain the lowest possible cost of operation
 - <strong style="font-weight:bolder;">Learn new things</span>
 
-## Our services
+## Peering
+
+Looking to peer with the network? Send a message to [`contact@ffixp.net`](mailto:contact@ffixp.net), and I'll work something out with you. Physical co-location is not a requirement.
+
+<!-- ## Our services
 
 FFIXP provides:
 
@@ -30,18 +38,19 @@ The following services are a work-in-progress, and will become live in the futur
 - Looking Glass
 - DNS servers
 
-For more information, or to request access to our services, please contact us at [`contact@ffixp.net`](mailto:contact@ffixp.net)
-
+For more information, or to request access to our services, please contact us at [`contact@ffixp.net`](mailto:contact@ffixp.net) -->
+<!-- 
 ## Connectivity
+
 
 We currently have network endpoints in the following locations:
 
 | City            | Type | Bandwidth |
 |-----------------|------|-----------|
 | London, UK      | VPS  | 1gbps     |
-| Toronto, Canada | VPS  | 1gbps     |
+| Toronto, Canada | VPS  | 1gbps     | -->
 
-## Networks
+<!-- ## Networks
 
 FFIXP is currently allocated the following networks:
 
@@ -53,4 +62,4 @@ FFIXP is currently allocated the following networks:
 | `2001:470:b1c8::/48`                                                               |         | Public        |
 | `2001:470:1d:217::/64`                                                             |         | Public        |
 | [`44.31.62.0/24`](https://bgp.tools/prefix/44.31.62.0/24)                          | AMPRNet | Public        |
-| `44.63.7.32/29`                                                                    | AMPRNet | Restricted    |
+| `44.63.7.32/29`                                                                    | AMPRNet | Restricted    | -->
